@@ -4,7 +4,6 @@ import * as math from 'mathjs';
 import Header from './Header/Header';
 import Input from './Input/Input'
 import Messages from './Messages/Messages';
-import './App.css';
 
 class App extends Component {
 
