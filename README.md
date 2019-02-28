@@ -1,4 +1,5 @@
 ## gotoAndPlay test assignment. 
+The app is runable from cmd or at http://laurirannu.github.io/gotoAndBot
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
