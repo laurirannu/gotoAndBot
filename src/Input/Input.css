@@ -15,10 +15,6 @@
     border: none;
 }
 
-*:focus {
-    outline: none;
-}
-
 .input__arrow {
     width: 3rem;
     cursor: pointer;

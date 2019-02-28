@@ -1,6 +1,6 @@
 {
   "homepage": "http://laurirannu.github.io/gotoAndBot",
-  "name": "chatbot",
+  "name": "gotoAndBot",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

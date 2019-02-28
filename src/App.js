@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
+import * as math from 'mathjs';
+
 import Header from './Header/Header';
 import Input from './Input/Input'
 import Messages from './Messages/Messages';
-import * as math from 'mathjs'
+import './App.css';
 
 class App extends Component {
 
@@ -20,7 +21,7 @@ class App extends Component {
     username: "Me"
   }
 
-  componentDidUpdate(prevProps, prevState) {
+  componentDidUpdate(prevState) {
     //uute sõnumite lisamisel näidatakse automaatselt uusimaid sõnumeid
     if (prevState.messages !== this.state.messages) {
       window.scrollTo(0, document.body.scrollHeight);
@@ -47,9 +48,7 @@ class App extends Component {
     if (message.substring(0, 8).toLowerCase() === "/weather") {
       var loc = message.substring(8, message.length);
       this.weatherHandler(loc);
-    }
-
-    else if (message.substring(0, 5).toLowerCase() === "/calc") {
+    } else if (message.substring(0, 5).toLowerCase() === "/calc") {
       var expression = message.substring(5, message.length);
       try {
         //siin kasutan mathjs-i meetodit eval, mis teeb täpselt seda, mis ülesandes palutud
@@ -60,13 +59,10 @@ class App extends Component {
       catch (err) {
         this.addNewMessage("I'm sorry, I didn't quite understand that, please type your input in a style like: '/calc 5+5'", this.botName);
       }
-    }
-
-    else {
+    } else {
       this.addNewMessage("I'm sorry, I can't understand simple text, please use /weather or /calc", this.botName);
-      //Siia lisaksin siis mingi chatbot API calli, mis vastaks juhul,
+      //Siia lisaksin chatbot API calli, mis vastaks juhul,
       //kui kasutaja sõnum ei alga etteantud käsuga.
-      //(kuid kahjuks on kõik minu leitud APId tasulised)
     }
   }
 
@@ -76,7 +72,7 @@ class App extends Component {
       return {
         messages: [...prevState.messages, {
           text: message,
-          username: user, 
+          username: user,
           date: new Date()
         }],
       }
@@ -87,7 +83,7 @@ class App extends Component {
     //kõigepealt kuvan kasutaja sisestatud sõnumi vestluses
     //ning siis hakkan seda sisendit uurima ja vastavalt käituma
     if (message) {
-      this.addNewMessage(message, "Me");
+      this.addNewMessage(message, this.state.username);
       this.messagesHandler(message);
     }
   }
