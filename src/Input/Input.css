@@ -1,0 +1,37 @@
+.input-wrapper{
+    position: fixed;
+    bottom:0;
+    width:100%;
+    height: 3.5rem;
+    border-top: solid 1px #62e2c0;
+    display: flex;
+}
+
+.input {
+    width: 100%;
+    height: 100%;
+    padding-left: 1rem;
+    font-size: 1rem;
+    border: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+.input__arrow {
+    width: 3rem;
+    cursor: pointer;
+    background: white;
+    border: none;
+    position: relative;
+}
+
+.input__arrow img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 14px;
+    height: 14px;
+}

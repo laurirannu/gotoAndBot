@@ -1,0 +1,24 @@
+.pic {
+    border-radius: 50%;
+    width: 3rem;
+    height:  3rem;
+    border: 2px solid #62e2c0;
+    margin: 0.5rem 0 0.5rem 1rem;
+}
+
+.header {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: white;
+    z-index: 1;
+}
+
+.name {
+    margin: 0 0 0 1rem;
+    color: #62e2c0;
+    font-weight: bold;
+}
