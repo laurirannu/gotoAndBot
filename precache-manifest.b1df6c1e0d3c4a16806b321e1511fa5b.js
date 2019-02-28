@@ -12,19 +12,19 @@ self.__precacheManifest = [
     "url": "/gotoAndBot/static/js/runtime~main.a84fffb0.js"
   },
   {
-    "revision": "8c57150f1c6c318674ac",
-    "url": "/gotoAndBot/static/js/main.8c57150f.chunk.js"
+    "revision": "158a9be5b375bf268d52",
+    "url": "/gotoAndBot/static/js/main.158a9be5.chunk.js"
   },
   {
-    "revision": "3e2c906202040a538011",
-    "url": "/gotoAndBot/static/js/2.3e2c9062.chunk.js"
+    "revision": "14daabc77f077db19a19",
+    "url": "/gotoAndBot/static/js/2.14daabc7.chunk.js"
   },
   {
-    "revision": "8c57150f1c6c318674ac",
-    "url": "/gotoAndBot/static/css/main.b1d23380.chunk.css"
+    "revision": "158a9be5b375bf268d52",
+    "url": "/gotoAndBot/static/css/main.cd9c452b.chunk.css"
   },
   {
-    "revision": "93bea7e06fb47c7be3ff5c605fa8f576",
+    "revision": "9c888766cef58586347299a2c6e4cf63",
     "url": "/gotoAndBot/index.html"
   }
 ];
