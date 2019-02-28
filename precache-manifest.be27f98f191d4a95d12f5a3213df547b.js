@@ -4,27 +4,27 @@ self.__precacheManifest = [
     "url": "/gotoAndBot/static/media/robot.ba6b288f.jpg"
   },
   {
-    "revision": "0b974ee68e3f71a3ad8b3e000fc1d06f",
-    "url": "/gotoAndBot/static/media/right-arrow.0b974ee6.svg"
+    "revision": "93812a688d4405ed222ce76fa212462f",
+    "url": "/gotoAndBot/static/media/right-arrow.93812a68.svg"
   },
   {
     "revision": "a84fffb0529dd3ffbd93",
     "url": "/gotoAndBot/static/js/runtime~main.a84fffb0.js"
   },
   {
-    "revision": "4243d611713121c3a720",
-    "url": "/gotoAndBot/static/js/main.4243d611.chunk.js"
+    "revision": "8c57150f1c6c318674ac",
+    "url": "/gotoAndBot/static/js/main.8c57150f.chunk.js"
   },
   {
     "revision": "3e2c906202040a538011",
     "url": "/gotoAndBot/static/js/2.3e2c9062.chunk.js"
   },
   {
-    "revision": "4243d611713121c3a720",
-    "url": "/gotoAndBot/static/css/main.594e45b3.chunk.css"
+    "revision": "8c57150f1c6c318674ac",
+    "url": "/gotoAndBot/static/css/main.b1d23380.chunk.css"
   },
   {
-    "revision": "3ca45a3c4889c31b26c68e4d486f46ab",
+    "revision": "93bea7e06fb47c7be3ff5c605fa8f576",
     "url": "/gotoAndBot/index.html"
   }
 ];
